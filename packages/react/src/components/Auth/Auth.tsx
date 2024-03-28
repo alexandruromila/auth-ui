@@ -52,6 +52,8 @@ function Auth({
     authView === 'sign_up' ||
     authView === 'magic_link'
 
+            console.log('coming from forked repo');
+
   useEffect(() => {
     createStitches({
       theme: merge(
