@@ -70,6 +70,10 @@ function EmailAuth({
     }
   }, [authView])
 
+
+
+    console.log('coming from forked project');
+
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
     setError('')
