@@ -1,7 +1,7 @@
 {
-  "name": "@supabase/auth-ui",
+  "name": "@omnisourcetech/auth-ui",
   "version": "0.0.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "build": "turbo run build",
     "build:react": "turbo run build --filter=@supabase/auth-ui-react",
@@ -35,5 +35,30 @@
   "packageManager": "pnpm@8.7.0",
   "peerDependencies": {
     "typescript": "4.4.x || 4.5.x || 4.6.x"
-  }
+  },
+  "description": "As of 7th Feb 2024, this repository is no longer maintained by the Supabase Team. At the moment, the team does not have capacity to give the expected level of care to this repository. We may revisit Auth UI in the future but regrettably have to leave it on hold for now as we focus on other priorities such as improving the Auth Helpers and advanced Auth primitives.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "example": "examples"
+  },
+  "dependencies": {
+    "eslint": "^8.48.0",
+    "eslint-config-prettier": "^8.10.0",
+    "eslint-plugin-solid": "^0.9.4",
+    "eslint-plugin-svelte3": "^4.0.0",
+    "eslint-scope": "^7.2.2",
+    "eslint-visitor-keys": "^3.4.3",
+    "prettier-plugin-svelte": "^2.10.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexandruromila/auth-ui.git"
+  },
+  "author": "Alexandru Romila",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexandruromila/auth-ui/issues"
+  },
+  "homepage": "https://github.com/alexandruromila/auth-ui#readme"
 }
